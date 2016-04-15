@@ -1,0 +1,14 @@
+train_cut0: 
+test_cut0:去除train和test中所有的数值加起来为0的列
+
+train_cut0_binrz:
+test_cut0_binrz:去除train和test中所有的数值加起来为0的列之后把所有大于零的数值全部赋值成255
+
+train_cutless255
+test_cutless255:去除train和test中所有数值加起来小于255的列
+
+train_cutless255_binrz
+test_cutless255_binrz:去除train和test中所有数值加起来小于255的列之后把所有大于零的数值全部赋值成255
+
+train_less200to0_cut0
+test_less200to0_cut0:把所有小于200的数值全部赋值为0，然后去除train和test中所有的数值加起来为0的列
